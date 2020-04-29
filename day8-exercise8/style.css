@@ -1,9 +1,12 @@
 p{
     border-style: none solid solid solid;
     width:200px;
-    height:100px;
+    min-height: 20px;
     border-color:black;
     margin:0;
+    vertical-align: center;
+    position: relative;
+    
 }
 
 p:hover{
@@ -16,4 +19,16 @@ p:hover{
     height:100px;
     border-color:black;
     margin:0;
+}
+
+body{
+    position: relative;
+    vertical-align: center;
+    
+}
+
+div{
+    
+        width: 300px;
+    
 }
